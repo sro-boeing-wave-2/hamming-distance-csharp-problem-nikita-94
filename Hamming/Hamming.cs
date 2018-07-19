@@ -6,8 +6,7 @@ namespace Hamming
     {
         public static int Distance(string original, string current)
         {
-            int hammingDistance = 0;           
-            
+            int hammingDistance = 0;
             if (original == null)
                 throw new ArgumentNullException("original");
             else if (current == null)
